@@ -1,0 +1,5 @@
+project_id = "<your-project-id>"
+region     = "europe-west1"
+zone       = "europe-west1-b"
+subnetwork = "projects/<your-project-id>/regions/europe-west1/subnetworks/default"
+service_account_email = "<project-number>-compute@developer.gserviceaccount.com"
