@@ -5,14 +5,14 @@ import time
 from google.cloud import bigtable, pubsub_v1
 
 # Google Cloud Configuration
-PUBSUB_PROJECT_ID = "<your-project-id>"  # Project where the Pub/Sub topic is
+PUBSUB_PROJECT_ID = "<teachers-project-id>"  # Project where the Pub/Sub topic is
 BIGTABLE_PROJECT_ID = "<your-project-id>"  # Project where Bigtable is
 TOPIC_ID = "edem-iot-pubsub"
 SUBSCRIPTION_ID = "<edem-user>-subscription"
 BIGTABLE_INSTANCE_ID = "edem-bigtable-iot"
 BIGTABLE_TABLE_ID = "sensors_data"
 
-# Set credentials explicitly for Pub/Sub (Project <your-project-id>)
+# Set credentials explicitly for Pub/Sub (Project <teachers-project-id>)
 os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = os.getenv(
     "GOOGLE_APPLICATION_CREDENTIALS_PUBSUB"
 )
