@@ -130,8 +130,10 @@ def insert_data(order):
         logging.error(f"Error inserting data: {e}")
         sys.exit(1)
     finally:
-        cursor.close()
-        conn.close()
+        if cursor:
+            cursor.close()
+        if conn:
+            conn.close()
 
 
 if __name__ == "__main__":

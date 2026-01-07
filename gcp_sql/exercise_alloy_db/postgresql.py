@@ -13,7 +13,7 @@ logging.basicConfig(
 )
 
 # Connection parameters
-DB_HOST = "34.175.112.182"
+DB_HOST = "<your-mysql-public-ip>"
 DB_PORT = "5432"
 DB_NAME = "postgres"
 DB_USER = "postgres"
