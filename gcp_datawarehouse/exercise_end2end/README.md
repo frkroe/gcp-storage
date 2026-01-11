@@ -60,7 +60,7 @@ gcloud sql instances create edem-postgres \
   --storage-size=100 \
   --no-deletion-protection \
   --authorized-networks=0.0.0.0/0 \
-  --root-password=EDEM2526
+  --root-password=Edem2526.
 ```
 
 Run the following command to create a user for the database:
@@ -68,7 +68,7 @@ Run the following command to create a user for the database:
 ```sh
 gcloud sql users create postgres \
   --instance=edem-postgres \
-  --password=EDEM2526
+  --password=Edem2526.
 ```
 
 Run the following command to create the ecommerce database:

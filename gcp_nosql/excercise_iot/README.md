@@ -16,7 +16,7 @@ There are 3 folders in this exercise:
 You only have to focus on the `big_table_publisher` folder. The other folders are already configured to work with the Google Cloud Pub/Sub and Google Cloud BigTable.
 
 1. Create a Google Cloud BigTable instance in the GCP console.
-2. Write `edem-iot` as the name for the instance and a id.
+2. Write `edem-bigtable-iot` as the name for the instance and a id.
 3. Select SSD storage type.
 4. Select europe-west1 as the location.
 5. Click on Create.

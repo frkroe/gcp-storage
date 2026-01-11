@@ -10,7 +10,7 @@ In this exercise, we will create an Alloy DB instance, and compare its performan
 
 2. In the ID cluster put `alloy-db-<edem-user>`
 
-3. In Password put `EDEM2526`
+3. In Password put `Edem2526.`
 
 4. In the region, select `europe-southwest1 (Madrid)`
 

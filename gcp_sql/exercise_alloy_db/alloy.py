@@ -17,7 +17,7 @@ DB_HOST = "<your-alloydb-public-ip>"
 DB_PORT = "5432"
 DB_NAME = "postgres"
 DB_USER = "postgres"
-DB_PASSWORD = "EDEM2526"
+DB_PASSWORD = "Edem2526."
 
 # Connect to AlloyDB
 try:

@@ -77,7 +77,7 @@ By using their agentic AI, let's create the database with our tables and ask for
 
 6. Give the name `public-transport` to the Instance ID (or any other if you have chosen a different database in the previous step).
 
-7. Give the password `EDEM2526`
+7. Give the password `Edem2526.`
 
 8. Select `europe-southwest1 (Madrid)` as the region.
 
@@ -94,7 +94,7 @@ Once the Instance is created, we have to connect to it. Follow this steps:
 
 3. Select user: postgres
 
-4. Select Password: EDEM2526
+4. Select Password: Edem2526.
 
 
 ## Create tables and insert data

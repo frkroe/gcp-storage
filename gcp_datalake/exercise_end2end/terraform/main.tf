@@ -69,7 +69,7 @@ resource "google_pubsub_topic" "delivery_events" {
 
 # Postgres SQL instance
 resource "google_sql_database_instance" "postgres_instance" {
-  name             = "edem-mimove-postgres"
+  name             = "<your-cloudsql-instance-name>"
   region           = var.region
   database_version = "POSTGRES_15"
   settings {
@@ -94,7 +94,7 @@ resource "google_sql_database_instance" "postgres_instance" {
 resource "google_sql_user" "postgres_user" {
   name     = "postgres"
   instance = google_sql_database_instance.postgres_instance.name
-  password = "EDEM2526"
+  password = "Edem2526."
 }
 
 resource "google_sql_database" "ecommerce" {

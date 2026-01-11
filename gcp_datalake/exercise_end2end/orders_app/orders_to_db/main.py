@@ -146,7 +146,7 @@ if __name__ == "__main__":
     DB_CONFIG = {
         "dbname": "ecommerce",
         "user": "postgres",
-        "password": "EDEM2526",
+        "password": "Edem2526.",
         "host": os.getenv("HOST_IP"),
         "port": 5432,
     }

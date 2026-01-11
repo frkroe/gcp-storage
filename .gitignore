@@ -169,7 +169,7 @@ cython_debug/
 
 **/plugins/**
 
-**.vscode/** 
+**.vscode/**
 **ruff**
 
 # Terraform
@@ -181,3 +181,5 @@ terraform.tfstate.backup
 
 **mimove**
 **.env**
+sa-**.json
+dbt_project_example/
