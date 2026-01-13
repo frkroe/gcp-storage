@@ -25,7 +25,7 @@ terraform {
   }
 
   backend "gcs" {
-    bucket  = "edem-terraform-state"
+    bucket  = "bucket-inaki-endtoend"
     prefix  = "terraform/state"
   }
 }

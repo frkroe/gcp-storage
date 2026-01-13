@@ -3,7 +3,7 @@ resource "google_compute_instance_from_machine_image" "delivery_app" {
   name           = "delivery-app"
   provider       = google-beta
   zone           = var.zone
-  source_machine_image  = "projects/${var.project_id}/global/machineImages/<your-machine-image-name>"
+  source_machine_image  = "projects/${var.project_id}/global/machineImages/imagen-maquina"
   machine_type   = "e2-micro"
 
   network_interface {
@@ -29,7 +29,7 @@ resource "google_compute_instance_from_machine_image" "orders_app" {
   name           = "orders-app"
   provider       = google-beta
   zone           = var.zone
-  source_machine_image  = "projects/${var.project_id}/global/machineImages/<your-machine-image-name>"
+  source_machine_image  = "projects/${var.project_id}/global/machineImages/imagen-maquina"
   machine_type   = "e2-micro"
 
   network_interface {
@@ -69,7 +69,7 @@ resource "google_pubsub_topic" "delivery_events" {
 
 # Postgres SQL instance
 resource "google_sql_database_instance" "postgres_instance" {
-  name             = "<your-cloudsql-instance-name>"
+  name             = "edem-postgres"
   region           = var.region
   database_version = "POSTGRES_15"
   settings {

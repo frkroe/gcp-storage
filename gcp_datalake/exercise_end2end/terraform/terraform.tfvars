@@ -1,5 +1,5 @@
-project_id = "<your-project-id>"
+project_id = "end-to-end-gcp"
 region     = "europe-west1"
 zone       = "europe-west1-b"
-subnetwork = "projects/<your-project-id>/regions/europe-west1/subnetworks/default"
-service_account_email = "<project-number>-compute@developer.gserviceaccount.com"
+subnetwork = "projects/end-to-end-gcp/regions/europe-west1/subnetworks/default"
+service_account_email = "288578193600-compute@developer.gserviceaccount.com"
