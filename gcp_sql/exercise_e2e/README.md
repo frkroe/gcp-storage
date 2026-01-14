@@ -2,6 +2,11 @@
 
 We will work on the migration of our operational DB (PostgreSQL) that we used in the module `GCP Setup` to Cloud SQL.
 
+Going from this architecture:
+<img src="../../.img/gcp_e2e_architecture-arch-1.drawio.png" alt="E2E Architecture diagram">
+
+To this:
+<img src="../../.img/gcp_e2e_architecture-arch-2.drawio.png" alt="E2E Architecture diagram">
 
 -----------------------------
 

@@ -2,6 +2,11 @@
 
 We will work on creating a small example of a Data Lake in GCS
 
+Going from this architecture:
+<img src="../../.img/gcp_e2e_architecture-arch-3.drawio.png" alt="E2E Architecture diagram">
+
+To this:
+<img src="../../.img/gcp_e2e_architecture-arch-4.drawio.png" alt="E2E Architecture diagram">
 
 -----------------------------
 

@@ -2,6 +2,11 @@
 
 We will work on the migration of the data warehouse (Clickhouse) that we used in the module `GCP Setup`
 
+Going from this architecture:
+<img src="../../.img/gcp_e2e_architecture-arch-2.drawio.png" alt="E2E Architecture diagram">
+
+To this:
+<img src="../../.img/gcp_e2e_architecture-arch-3.drawio.png" alt="E2E Architecture diagram">
 
 -----------------------------
 
