@@ -228,3 +228,4 @@ resource "google_pubsub_subscription" "delivery_events_dead_letter_sub" {
   name  = "delivery-events-dead-letter-sub"
   topic = google_pubsub_topic.delivery_events_dead_letter.name
 }
+ 
